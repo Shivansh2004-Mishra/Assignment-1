@@ -1,51 +1,89 @@
-<html>
-    <head>
-        <title>Assignment-1</title>
-    </head>
-    <body>
-        <h1>Hello World !</h1>
-        <h4>Few facts about the world we live in </h4>
-        <img src="earth.jpg" height="400" width="400">
-        <p>Earth is the third planet from the Sun and the only astronomical object known to harbor life.This is enabled by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its global ocean, covering 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, most of which is located in the form of continental landmasses within Earth's land hemisphere. Most of Earth's land is at least somewhat humid and covered by vegetation, while large sheets of ice at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation. </p>
-        <hr>
-        <p><b>About the earth</b></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- About Section -->
+    <section>
+        <h2>About Us</h2>
+        <p>Welcome to our website, your gateway to professional services tailored to meet your needs. We specialize in web development, SEO optimization, and graphic design, ensuring high-quality solutions for businesses and individuals alike. Our goal is to create stunning digital experiences that captivate audiences and drive success. Whether you need a dynamic website, enhanced search visibility, or eye-catching graphics, we've got you covered. Explore our offerings and let us help you turn your vision into reality.</p>
+    </section>
+
+    <!-- Image Section -->
+    <section>
+        <h2>Our Image</h2>
+         <img src="C:\Users\shiva\OneDrive\Documents\Web\Assignments\Assignment-1\earth.jpg" height="400" width="400">
+    </section>
+
+    <!-- Services Section -->
+    <section>
+        <h2>Our Services</h2>
         <ul>
-            <li>Mass: 5,972,190,000,000,000 billion kg</li>
-            <li>Equatorial Diameter: 12,756km</li>
-            <li>Notable moon:<a href="https://moon.nasa.gov">Moon</a></li>
+            <li>Web Development</li>
+            <li>SEO Optimization</li>
+            <li>Graphic Design</li>
         </ul>
-        <hr>
+    </section>
+
+    <!-- Video Section -->
+    <section>
+        <h2>Watch Our Video</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/bVQpwxgMQCg?si=9qoLgLXozmJsLIBe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <hr>
-        <p><b>Top 3 facts about earth</b></p>
-        <ol>
-            <li>The Earth's rotetion is gradually slowing</li>
-            <li>Earth is at centre of universe</li>
-            <li>Earth has powerful magnitude feild</li>
-        </ol>
-        <hr>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Avg. temp.</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Mars</td>
-                    <td>46 Degree</td>
-                </tr>
-                <tr>
-                    <td>Venus</td>
-                    <td>462 Degree</td>
-                </tr>
-            </tbody>
+    </section>
+
+    <!-- Price List Section -->
+    <section>
+        <h2>Price List</h2>
+        <table border="1">
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>Rs 5000</td>
+            </tr>
+            <tr>
+                <td>SEO Optimization</td>
+                <td>Rs 3000</td>
+            </tr>
+             <tr>
+                <td>Graphic Design</td>
+                <td>Rs 3000</td>
+            </tr>
         </table>
-        <hr>
-        <form action="https://www.space.com">
-            <p>Want to know more</p>
-            <input type="submit">
+    </section>
+
+    <!-- Form Section -->
+    <section>
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            
+            <input type="submit" value="Submit">
         </form>
-    </body>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at: example@email.com</p>
+    </footer>
+
+</body>
 </html>
